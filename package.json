@@ -1,0 +1,16 @@
+{
+  "name": "twap-calculator",
+  "version": "0.0.1",
+  "description": "Calculate TWAP with coingecko data",
+  "main": "index.js",
+  "author": "0xdef1.eth@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "coingecko-twap": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21",
+    "yargs": "^17.4.0"
+  }
+}
